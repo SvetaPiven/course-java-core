@@ -25,12 +25,12 @@ public class Example8ExecutorServiceInvokeAny {
         });
         callables.add(new Callable<String>() {
             public String call() throws Exception {
-                return "Task 3";
+                return "Task 2";
             }
         });
         callables.add(new Callable<String>() {
             public String call() throws Exception {
-                return "Task 2";
+                return "Task 3";
             }
         });
 
